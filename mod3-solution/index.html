@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Module 3 Solution</title>
+	<title>Food, LLC</title>
 	  <!-- Using Bootstrap 5.3.8, so some classes and hows can differ -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -28,29 +28,43 @@
     <div id="collapsable-nav" class="collapse navbar-collapse navbar-dark">
       <ul class="nav navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Chicken</a>
+          <a class="nav-link" href="#chicken">Chicken</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Beef</a>
+          <a class="nav-link" href="#beef">Beef</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Sushi</a>
+          <a class="nav-link" href="#sushi">Sushi</a>
         </li>
       </ul>
     </div><!-- #collapsable-nav -->
   </header>
 
-  <h1 class="text-center">Our Menu</h1>
-  <div class="container">
+  <h1 id="menu-title" class="text-center">Our Menu</h1>
+  <div class="container-fluid">
     <div class="row">
-      <div class="col-xs-12 menu-item">
-        <h2>Chicken</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis purus quis orci convallis varius. Proin facilisis tortor eros, nec scelerisque dui blandit ut. Cras gravida, augue vel fermentum euismod, massa ligula facilisis enim, eget egestas velit justo ac ligula. Donec posuere felis eget auctor tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus neque purus, eget ullamcorper nibh ultricies sit amet. Pellentesque lectus metus, tincidunt ut mattis in, condimentum vel quam. Phasellus ligula augue, vulputate in tincidunt sit amet, laoreet nec turpis. Integer vel tristique neque. Mauris fringilla quis risus nec feugiat.</p>
-        <p>Nulla rutrum egestas nunc sed imperdiet. Etiam vel hendrerit tortor. Suspendisse ut enim vitae eros suscipit blandit. Sed sed condimentum neque. Curabitur ut porttitor orci. Nulla lacinia imperdiet finibus. Mauris venenatis pulvinar mollis. Sed tristique arcu mattis sapien commodo, varius mollis est lobortis. Proin vehicula gravida justo ac hendrerit. Vestibulum fringilla auctor massa sed luctus. Vivamus accumsan, mauris id viverra placerat, purus turpis faucibus leo, et scelerisque mauris justo at nisl. Sed non augue tellus. Etiam pulvinar, urna ac laoreet rutrum, nisi augue auctor massa, rutrum varius lorem ipsum vitae diam. In iaculis, nibh a pretium euismod, ex urna rhoncus est, a iaculis dui sem eu nulla. Sed blandit sem eget commodo vestibulum.</p>
-        <p>Mauris dapibus sollicitudin condimentum. Donec aliquam pharetra pellentesque. Sed tincidunt sem ipsum. Sed egestas orci et ultrices suscipit. Nam sit amet commodo ipsum, aliquam molestie diam. Duis vel lacinia lorem, vitae dapibus enim. Sed euismod vestibulum tortor sit amet venenatis. Donec ullamcorper fermentum arcu. Aliquam varius, purus at rutrum commodo, risus odio mattis dui, a sollicitudin enim purus sit amet tortor. Donec tempus lorem at rutrum tincidunt. Aenean nisl lectus, feugiat vel ex non, consectetur facilisis leo. Praesent consectetur ac augue ac placerat.</p>
-        <p>Donec vel dapibus risus. Vivamus at tellus velit. Aliquam justo velit, bibendum viverra lacus non, mattis gravida dui. Vestibulum vitae interdum diam, eu varius lorem. Maecenas elit libero, mollis in justo eget, porttitor interdum ante. Ut ultricies odio id elit tincidunt convallis. Suspendisse dignissim tempor ex quis sollicitudin. Aenean quis egestas est. Aenean eget rhoncus quam. Nunc justo ex, ultrices non vulputate in, maximus quis turpis. Suspendisse tincidunt magna mi. Pellentesque feugiat, nisl sit amet convallis semper, erat nisi vestibulum magna, eget bibendum lacus mauris et nisi. Duis eget lectus finibus, finibus ipsum non, pretium enim. Nunc fringilla nisi erat, sed tempor diam interdum ut.</p>
-        <p>Quisque pellentesque massa ipsum, vel efficitur ipsum tempor ut. Praesent sodales odio ligula, vel gravida lectus scelerisque viverra. In quis libero tincidunt magna ullamcorper ultrices. Proin arcu neque, vulputate varius sem rhoncus, accumsan ullamcorper massa. Proin dignissim tellus at arcu sagittis pharetra. Duis condimentum dapibus est. Nullam lacus sapien, congue et tellus vitae, ultrices imperdiet velit. Nunc malesuada consectetur turpis, finibus scelerisque turpis suscipit euismod. Sed vitae viverra lectus. Cras tempor dui quis lorem hendrerit suscipit. Ut congue ullamcorper ligula, et scelerisque ipsum auctor sit amet. Vestibulum justo dolor, fringilla vel mi ac, porta suscipit dolor. Phasellus et rutrum nisi. Vestibulum quis efficitur risus. Vestibulum venenatis, purus non consequat accumsan, risus justo porta urna, eu cursus arcu magna non magna. Sed eleifend tristique nisl, in condimentum odio lobortis et.</p>
-      </div><!-- .menu-item -->
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="chicken" class="menu-item">
+          <h3 class="text-center">Chicken</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed iaculis purus quis orci convallis varius. Proin facilisis tortor eros, nec scelerisque dui blandit ut. Cras gravida, augue vel fermentum euismod, massa ligula facilisis enim, eget egestas velit justo ac ligula. Donec posuere felis eget auctor tempor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris luctus neque purus, eget ullamcorper nibh ultricies sit amet. Pellentesque lectus metus, tincidunt ut mattis in, condimentum vel quam. Phasellus ligula augue, vulputate in tincidunt sit amet, laoreet nec turpis. Integer vel tristique neque. Mauris fringilla quis risus nec feugiat.</p>
+          <p class="back-to-top"><a href="#menu-title">↑ Back to Top</a></p>
+        </div><!-- #chicken -->
+      </div>
+      <div class="col-md-4 col-sm-6 col-xs-12">
+        <div id="beef" class="menu-item">
+          <h3 class="text-center">Beef</h3>
+          <p>Nulla rutrum egestas nunc sed imperdiet. Etiam vel hendrerit tortor. Suspendisse ut enim vitae eros suscipit blandit. Sed sed condimentum neque. Curabitur ut porttitor orci. Nulla lacinia imperdiet finibus. Mauris venenatis pulvinar mollis. Sed tristique arcu mattis sapien commodo, varius mollis est lobortis. Proin vehicula gravida justo ac hendrerit. Vestibulum fringilla auctor massa sed luctus. Vivamus accumsan, mauris id viverra placerat, purus turpis faucibus leo, et scelerisque mauris justo at nisl. Sed non augue tellus. Etiam pulvinar, urna ac laoreet rutrum, nisi augue auctor massa, rutrum varius lorem ipsum vitae diam. In iaculis, nibh a pretium euismod, ex urna rhoncus est, a iaculis dui sem eu nulla. Sed blandit sem eget commodo vestibulum.</p>
+          <p>Mauris dapibus sollicitudin condimentum. Donec aliquam pharetra pellentesque. Sed tincidunt sem ipsum. Sed egestas orci et ultrices suscipit. Nam sit amet commodo ipsum, aliquam molestie diam. Duis vel lacinia lorem, vitae dapibus enim. Sed euismod vestibulum tortor sit amet venenatis. Donec ullamcorper fermentum arcu. Aliquam varius, purus at rutrum commodo, risus odio mattis dui, a sollicitudin enim purus sit amet tortor. Donec tempus lorem at rutrum tincidunt. Aenean nisl lectus, feugiat vel ex non, consectetur facilisis leo. Praesent consectetur ac augue ac placerat.</p>
+          <p class="back-to-top"><a href="#menu-title">↑ Back to Top</a></p>
+        </div><!-- #beef -->
+      </div>
+      <div class="col-md-4 col-sm-12 col-xs-12">
+        <div id="sushi" class="menu-item">
+          <h3 class="text-center">Sushi</h3>
+          <p>Mauris dapibus sollicitudin condimentum. Donec aliquam pharetra pellentesque. Sed tincidunt sem ipsum. Sed egestas orci et ultrices suscipit. Nam sit amet commodo ipsum, aliquam molestie diam. Duis vel lacinia lorem, vitae dapibus enim. Sed euismod vestibulum tortor sit amet venenatis. Donec ullamcorper fermentum arcu. Aliquam varius, purus at rutrum commodo, risus odio mattis dui, a sollicitudin enim purus sit amet tortor. Donec tempus lorem at rutrum tincidunt. Aenean nisl lectus, feugiat vel ex non, consectetur facilisis leo. Praesent consectetur ac augue ac placerat.</p>
+          <p class="back-to-top"><a href="#menu-title">↑ Back to Top</a></p>
+        </div><!-- #sushi -->
+      </div>
     </div><!-- .row -->
   </div><!-- .container -->
 

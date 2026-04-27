@@ -1,0 +1,27 @@
+body {
+  background-color: khaki;
+}
+
+/* Navigation Bar */
+nav {
+  background-color: midnightblue;
+  color: white;
+}
+.navbar-header {
+  width: 100%;
+  height: 40px; /* Fixing height to toggler icon's height */
+}
+.navbar-brand {
+  display: inline-block;
+  vertical-align: middle;
+}
+.navbar-header button.navbar-toggler {
+  float: right;
+}
+
+#collapsable-nav {
+  background-color: darkslateblue;
+}
+#collapsable-nav li.nav-item {
+  text-align: center;
+}

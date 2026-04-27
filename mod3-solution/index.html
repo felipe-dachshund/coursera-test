@@ -6,9 +6,39 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Module 3 Solution</title>
+	  <!-- Using Bootstrap 5.3.8, so some classes and hows can differ -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <header>
+    <nav class="navbar navbar-default navbar-dark">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Food, LLC</a>
+          <button class="navbar-toggler d-sm-none" type="button"
+           data-bs-toggle="collapse" data-bs-target="#collapsable-nav"
+           aria-controls="collapsable-nav" aria-expanded="false"
+           aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div><!-- .navbar-header -->
+      </div><!-- .container-fluid -->
+    </nav><!-- .navbar -->
+    <div id="collapsable-nav" class="collapse navbar-collapse navbar-dark">
+      <ul class="nav navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Chicken</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Beef</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Sushi</a>
+        </li>
+      </ul>
+    </div><!-- #collapsable-nav -->
+  </header>
 
   <script src="js/jquery-4.0.0.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
